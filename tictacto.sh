@@ -80,10 +80,10 @@ check_match() {
   fi
   if [ $game_on == false ]; then
     if [ ${moves[$1]} == 'x' ];then
-      echo "$player_name_1: wins!"
+      echo "$player_name_2: wins!"
       return 
     else
-      echo "$player_name_2: wins!"
+      echo "$player_name_1: wins!"
       return 
     fi
   fi
